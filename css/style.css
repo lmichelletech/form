@@ -1,22 +1,21 @@
 body{margin: 0; padding: 0; font-size: 14px;}
-.top{background-color: #ccc;}
-h1{font-size: 28px; padding: 0 2vw 0 2vw; left: 10vw; display: inline; }
-.nav{ padding: 0 2vw 0 2vw; float: right; line-height: 5vh;}
-.nav a{text-decoration: none; padding: 0 0 1vw 2vw; }
-.nav a:hover{color: green; }
 
-.content{border-top: 4px solid #000;}
+#topnav{background-color: #ccc; }
 
-.leftcontent{ float: left; width: 30vw; max-width: 30vw; min-height: 92vh; height: 92vh; border-right: 2px solid black;}
-.rightcontent{min-width: 30vw; float:right;}
 
-.leftnav{ padding: 0 2vw 0 2vw; left: 10vw; float: left;}
-ul{color: purple; }
-.rightcontent .form{ margin: 10vh 0vw 0vh 25vw;}
-.form{color: #ccc; text-align: left; }
+h1{font-size: 28px; padding: 0 2vw 0 2vw; left: 10vw; top: 0;}
+#nav{ padding: 0 2vw 0 2vw; float: right; top:0; line-height: 35px;}
+
+#nav a{text-decoration: none; padding: 0 2vw 0 0vw; }
+#nav a:hover{color: green; }
+
+.content{height: 660px;}
+.leftcontent{background-color: aqua; max-width: 30%; min-width: 30%; height: 100%; float: left; }
+.rightcontent{background-color: aquamarine; max-width: 70%; min-width: 70%; height: 100%; margin-left: 30%; border-left: 2px solid #000;}
+.rightcontent input{display: block;}
+
+.form{background-color: #ccc; max-width: 18em; padding: 10vh 5vw 5vh 5vw; margin:  auto; }
 .form input{display: block; margin: 1vh 0 0 0;}
 textarea{resize: none; margin: 1vh 0 0 0;}
 
-
-
-footer{background-color: #ccc; font-size: 14px; color: #888; border-top: 4px solid #000; bottom: 0; position: absolute; min-width: 100%;}
+footer{background-color: #ccc; font-size: 14px; color: #888; border-top: 2px solid #000; bottom: 0; position: absolute; min-width: 100%;}
